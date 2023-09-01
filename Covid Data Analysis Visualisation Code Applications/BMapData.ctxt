@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BMapData
+comment0.text=\n\ Write\ a\ description\ of\ class\ BMapData\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=boroughCode\ boroughName\ row\ column
+comment1.target=BMapData(java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ BMapData\n
+comment2.params=
+comment2.target=java.lang.String\ getBoroughCode()
+comment2.text=\n\ @return\ the\ borough\ code\ \n
+comment3.params=
+comment3.target=java.lang.String\ getBoroughName()
+comment3.text=\n\ @return\ the\ borough\ name\ \n
+comment4.params=
+comment4.target=int\ getRow()
+comment4.text=\n\ @return\ the\ row\ the\ borough\ is\ in\ on\ the\ map\ grid\ \n
+comment5.params=
+comment5.target=int\ getColumn()
+comment5.text=\n\ @return\ the\ column\ the\ borough\ is\ in\ on\ the\ map\ grid\ \n
+comment6.params=boroughCode
+comment6.target=java.lang.String\ matchBoroughName(java.lang.String)
+comment6.text=\n\ @param\ the\ borough\ code\ of\ borough\n\ @return\ boroughName\ the\ borough\ name\n
+numComments=7

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Chart
+comment0.text=\n\ Write\ a\ description\ of\ JavaFX\ class\ LineChart\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=firstDate\ lastDate\ dataName\ name\ data
+comment1.target=javafx.scene.chart.AreaChart\ createAreaChart(java.time.LocalDate,\ java.time.LocalDate,\ java.lang.String,\ java.lang.String,\ java.util.ArrayList)
+comment1.text=\n\ Creates\ an\ Area\ Chart\ based\ on\ the\ gmr\ data\ from\ the\ covid_london\ csv\ file\ within\ a\ specific\ date\ range\ for\ a\ specific\ borough\ \n\ @param\ firstDate\ the\ first\ date\ in\ the\ date\ range\n\ @param\ lastDate\ the\ last\ date\ in\ the\ date\ range\ \n\ @param\ dataName\ the\ specific\ gmr\ data\ that\ is\ being\ plotted\n\ @param\ name\ the\ name\ of\ the\ borough\ \n\ @data\ the\ list\ of\ all\ the\ covid\ data\ recorded\ \n\ @return\ areaChart\ the\ area\ chart\ \n
+comment2.params=start\ end\ data\ name
+comment2.target=java.util.ArrayList\ getDates(java.time.LocalDate,\ java.time.LocalDate,\ java.util.ArrayList,\ java.lang.String)
+comment2.text=\n\ Returns\ an\ ArrayList\ of\ all\ the\ dates\ recorded\ within\ a\ given\ date\ range\ for\ a\ specific\ borough\n\ @param\ start\ the\ beginning\ date\ of\ the\ range\ \n\ @param\ end\ the\ last\ date\ of\ the\ range\ \n\ @param\ data\ all\ the\ recorded\ covid\ data\ \n\ @param\ name\ the\ name\ of\ the\ borough\ \n\ @return\ datePoints\ all\ the\ dates\ recorded\ within\ a\ given\ date\ range\ for\ a\ specific\ borough\n
+comment3.params=start\ end\ data\ name\ dataName
+comment3.target=java.util.ArrayList\ getGMR(java.time.LocalDate,\ java.time.LocalDate,\ java.util.ArrayList,\ java.lang.String,\ java.lang.String)
+comment3.text=\n\ Returns\ an\ ArrayList\ of\ all\ the\ gmr\ data\ (as\ specified)\ recorded\ within\ a\ given\ date\ range\ for\ a\ specific\ borough\n\ @param\ start\ the\ beginning\ date\ of\ the\ range\ \n\ @param\ end\ the\ last\ date\ of\ the\ range\ \n\ @param\ data\ all\ the\ recorded\ covid\ data\ \n\ @param\ name\ the\ name\ of\ the\ borough\ \n\ @param\ dataName\ the\ name\ of\ the\ specific\ gmr\ data\ to\ be\ returned\n\ @return\ gmrPoints\ all\ the\ gmr\ data\ \ recorded\ within\ a\ given\ date\ range\ for\ a\ specific\ borough\n
+numComments=4

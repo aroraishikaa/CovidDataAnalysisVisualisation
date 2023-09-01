@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BMapLoader
+comment0.text=\n\ Write\ a\ description\ of\ class\ BMapLoader\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=java.util.ArrayList\ load()
+comment1.text=\ \n\ Return\ an\ ArrayList\ containing\ the\ rows\ of\ the\ Boroughs\ and\ their\ coordinates\ on\ the\ map\ in\ the\ csv\ file.\n
+comment2.params=intString
+comment2.target=java.lang.Integer\ convertInt(java.lang.String)
+comment2.text=\n\n\ @param\ intString\ the\ string\ to\ be\ converted\ to\ Integer\ type\n\ @return\ the\ Integer\ value\ of\ the\ string,\ or\ -1\ if\ the\ string\ is\ \n\ either\ empty\ or\ just\ whitespace\n
+comment3.params=boroughCode
+comment3.target=java.lang.String\ findBoroughName(java.lang.String)
+comment3.text=\n\ returns\ the\ borough\ name\ associated\ with\ the\ borough\ code\ \n\ @param\ boroughCode\ the\ borough\ code\ \n\ @return\ boroughName\ the\ borough\ name\n
+numComments=4

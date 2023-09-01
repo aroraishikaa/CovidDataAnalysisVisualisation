@@ -1,0 +1,34 @@
+﻿borough_code,borough_name,row,column
+ENFI,Enfield,0,5
+BARN,Barnet,1,3
+HRGY,Haringey,1,4
+WALT,Waltham Forest,1,6
+HRRW,Harrow,2,1
+BREN,Brent,2,2
+CAMD,Camden,2,3
+ISLI,Islington,2,4
+HACK,Hackney,2,5
+REDB,Redbridge,2,6
+HAVE,Havering,2,7
+HILL,Hillingdon,3,0
+EALI,Ealing,3,1
+KENS,Kensington And Chelsea,3,2
+WSTM,Westminster,3,3
+TOWH,Tower Hamlets,3,4
+NEWH,Newham,3,5
+BARK,Barking And Dagenham,3,7
+HOUN,Hounslow,4,1
+HAMM,Hammersmith And Fulham,4,2
+WAND,Wandsworth,4,3
+CITY,City Of London,4,4
+GWCH,Greenwich,4,5
+BEXL,Bexley,4,6
+RICH,Richmond Upon Thames,5,2
+MERT,Merton,5,3
+LAMB,Lambeth,5,4
+STHW,Southwark,5,5
+LEWS,Lewisham,5,6
+KING,Kingston Upon Thames,6,3
+SUTT,Sutton,6,4
+CROY,Croydon,6,5
+BROM,Bromley,6,6

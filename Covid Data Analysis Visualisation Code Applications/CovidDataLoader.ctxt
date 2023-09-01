@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=CovidDataLoader
+comment1.params=
+comment1.target=java.util.ArrayList\ load()
+comment1.text=\ \n\ Return\ an\ ArrayList\ containing\ the\ rows\ in\ the\ Covid\ London\ data\ set\ csv\ file.\n
+comment2.params=doubleString
+comment2.target=java.lang.Double\ convertDouble(java.lang.String)
+comment2.text=\n\n\ @param\ doubleString\ the\ string\ to\ be\ converted\ to\ Double\ type\n\ @return\ the\ Double\ value\ of\ the\ string,\ or\ -1.0\ if\ the\ string\ is\ \n\ either\ empty\ or\ just\ whitespace\n
+comment3.params=intString
+comment3.target=java.lang.Integer\ convertInt(java.lang.String)
+comment3.text=\n\n\ @param\ intString\ the\ string\ to\ be\ converted\ to\ Integer\ type\n\ @return\ the\ Integer\ value\ of\ the\ string,\ or\ -1\ if\ the\ string\ is\ \n\ either\ empty\ or\ just\ whitespace\n
+comment4.params=boroughName\ start\ end\ records
+comment4.target=java.lang.Integer\ getTotalBoroughDeaths(java.lang.String,\ java.time.LocalDate,\ java.time.LocalDate,\ java.util.ArrayList)
+comment4.text=\n\ calculates\ the\ total\ number\ of\ deaths\ in\ a\ borough\ within\ a\ specifified\ time\ range\ \n\ @param\ boroughName\ the\ name\ of\ the\ borough\ \n\ @param\ start\ the\ start\ of\ the\ date\ range\n\ @param\ end\ the\ end\ of\ the\ date\ range\ \n\ @param\ records\ an\ array\ list\ of\ all\ covid\ data\n\ @return\ totalBDeaths\ the\ total\ number\ of\ deaths\ in\ a\ borough\ within\ a\ specifified\ time\ range\ \n\ \n
+numComments=5
