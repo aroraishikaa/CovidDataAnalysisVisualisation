@@ -1,45 +1,17 @@
 <h1>Covid Data Analysis Visulation Application</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Built a COVID data analysis app with Java and CSS, using real-world data from the Greater London Authority to visualize borough specific COVID statistics, When the user first runs the application, they are met with a welcome panel which initially consists of two date pickers and a welcome label. Once the dates are selected, a colour coded borough map (colours are based on the total number of deaths within that borough within the time frame previously selected by the user) including average total COVID cases over specific timeframes. When a borough button is clicked, a new window is opened displaying the list of records for the date range that was selected prior with the following details: date, google mobility data, new COVID cases, total COVID cases, new COVID deaths. Each borough also has a statistics window that can be opened. The purpose of this is to display an array of statistics which are calculated using derived statistics from the csv files over the given period of time. 5 different statistics are measured: total number of total deaths for given period of time, average of total cases for given period of time, average of residential GMR for given period of time, average of parks GMR for given period of time, date with the largest number of (total) deaths for given period of time.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Languages Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Java</b>
+- <b>CSS</b>
 
-<h2>Program walk-through:</h2>
-
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<h2>Detailed Project Walkthrough</h2>
+https://www.dropbox.com/scl/fi/89okt117t8qe9x6jhhntx/Covid-Data-Analysis-Visualisation-Application-Detailed-Project-Walkthrough.docx?rlkey=z1vwz6gi7e19arouoi2i4pdt9&dl=0
 
 <!--
  ```diff
